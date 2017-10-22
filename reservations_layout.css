@@ -1,0 +1,154 @@
+/* Sakari
+Mailyn Huynh */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 95%;
+	background-color: black;
+	margin: 0 auto 0 auto;
+	border: 1px solid;
+}
+
+header {
+	letter-spacing: .1em;
+}
+
+nav {
+	text-align: center;
+	padding: 10px;
+	margin: 0 0 10px 0;
+	background-color: black;
+}
+
+nav li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 5%;
+}
+
+a:hover {
+        font-size: 1.2em;
+        color: gold;
+}
+
+#main {
+	width: 50%;
+	padding: .5%;
+	float: left;
+	margin: 5% 5% 5% 5%;
+	border: 1px solid;
+}
+
+footer {
+	clear: both;
+}
+
+body {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: helvetica, sans-serif;
+}
+
+p {
+	word-spacing: .1em;
+}
+
+#aside {
+	margin-top: 2%;
+	margin-right: 9.5%;
+	float: right;
+}
+
+h3 a {
+	color: #e6e6e6;
+	font-family: Franklin Gothic, helvetica, sans-serif;
+	word-spacing: .1em;
+}
+
+li {
+    color: white;
+}
+
+h1.clear {
+	clear: both;
+}
+
+form {
+	margin-top: 1em;
+	border: solid 2px white;
+	padding: 1em;
+	font-size: 16px;
+}
+
+#formcontainer {
+	width: 100%;
+	float: right;
+	margin-top: 11%;
+}
+
+.labelfloatleft label {
+	width: 100px;
+	margin-right: 15px;
+	color: white;
+	float: left;
+	text-align: right;
+}
+
+.labelfloatleft input {
+	display: block;
+}
+
+fieldset {
+	margin-bottom: 1em;
+	border: solid 2px white;
+	background-color: grey;
+	display: block;
+}
+
+legend {
+	color: white;
+	padding: 0 10px;
+}
+
+label {
+	color: grey;
+}
+
+input.text {
+	background-color: white;
+}
+
+fieldset.group {
+	float: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	border: solid 2px white;
+	display: block;
+}
+
+select {
+	display: block;
+}
+
+input.button {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 4px;
+	background-color: black;
+	border: 1px solid white;
+	display: inline;
+}
+
+#pictures {
+	float: left;
+}
